@@ -1,0 +1,18 @@
+{
+
+  "manifest_version" :  2 ,
+
+  "name" : "supriya_newtab_extension" ,
+
+  "version" : "1.0" ,
+
+  "chrome_url_overrides"  : {
+    "newtab" : "newtab/index.html"
+  }  ,
+
+  "browser_action"  : {
+     "default_icon" : "thumb.png",
+     "default_title" : "Welcome supyog viewer"
+   }
+
+}
